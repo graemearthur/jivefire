@@ -268,6 +268,7 @@ func (f *Frame) applyTextOverlay() {
 	if f.fontFace != nil {
 		DrawCenterText(f.img, f.fontFace, f.title, f.centerY, f.textColor)
 		// DrawEpisodeNumber(f.img, f.fontFace, f.episodeNum, f.textColor)
+	// test comment
 	}
 }
 
